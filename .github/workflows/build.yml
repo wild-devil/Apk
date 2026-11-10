@@ -16,9 +16,6 @@ jobs:
           java-version: "17"
 
       - name: Build Debug APK
-        env:
-          PSIPHON_PROPAGATION_CHANNEL_ID: ${{ secrets.PSIPHON_PROPAGATION_CHANNEL_ID }}
-          PSIPHON_SPONSOR_ID: ${{ secrets.PSIPHON_SPONSOR_ID }}
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon

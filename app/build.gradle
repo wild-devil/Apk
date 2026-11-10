@@ -49,13 +49,6 @@ task generateEmbeddedValues {
         def propagationChannelId = embedded('PSIPHON_PROPAGATION_CHANNEL_ID', '')
         def sponsorId = embedded('PSIPHON_SPONSOR_ID', '')
 
-        if (!propagationChannelId) {
-            throw new GradleException('PSIPHON_PROPAGATION_CHANNEL_ID is required (set as env var or -P flag)')
-        }
-        if (!sponsorId) {
-            throw new GradleException('PSIPHON_SPONSOR_ID is required (set as env var or -P flag)')
-        }
-
         def clientVersion     = embedded('PSIPHON_CLIENT_VERSION', '1')
         def serverList        = embedded('PSIPHON_EMBEDDED_SERVER_LIST', '')
         def feedbackKey       = embedded('PSIPHON_FEEDBACK_ENCRYPTION_PUBLIC_KEY', '')
