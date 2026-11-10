@@ -1,4 +1,4 @@
-name: Build APK
+name: DARKNET APK Builder
 
 on:
   workflow_dispatch:
@@ -6,8 +6,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -17,11 +19,34 @@ jobs:
 
       - name: Build Debug APK
         env:
-          PSIPHON_PROPAGATION_CHANNEL_ID: EE0B7486ACAE75AA
-          PSIPHON_SPONSOR_ID: EE0B7486ACAE75AA
+          PSIPHON_PROPAGATION_CHANNEL_ID: ${{ secrets.PSIPHON_PROPAGATION_CHANNEL_ID }}
+          PSIPHON_SPONSOR_ID: ${{ secrets.PSIPHON_SPONSOR_ID }}
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
+
+      - name: Verify embedded configuration
+        run: |
+          FILE="app/src/main/java/com/psiphon3/psiphonlibrary/EmbeddedValues.java"
+
+          if [ ! -f "$FILE" ]; then
+            echo "ERROR: EmbeddedValues.java not generated"
+            exit 1
+          fi
+
+          if grep -Eq 'PROPAGATION_CHANNEL_ID = ""' "$FILE"; then
+            echo "ERROR: Propagation ID is EMPTY"
+            exit 1
+          else
+            echo "Propagation ID: NONEMPTY"
+          fi
+
+          if grep -Eq 'SPONSOR_ID = ""' "$FILE"; then
+            echo "ERROR: Sponsor ID is EMPTY"
+            exit 1
+          else
+            echo "Sponsor ID: NONEMPTY"
+          fi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
