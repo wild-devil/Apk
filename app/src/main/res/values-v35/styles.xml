@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Psiphon" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/darknet_background</item>
+        <item name="android:colorBackground">@color/darknet_surface</item>
+        <item name="android:textColorPrimary">@color/darknet_text_primary</item>
+        <item name="colorPrimary">@color/darknet_surface</item>
+        <item name="colorPrimaryDark">@color/darknet_background</item>
+        <item name="colorAccent">@color/darknet_accent</item>
+        <!-- workaround for opting out of edge-to-edge enforcement, v35+ specific -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+    <style name="Theme.Psiphon.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/darknet_background</item>
+        <item name="android:colorBackground">@color/darknet_surface</item>
+        <item name="android:textColorPrimary">@color/darknet_text_primary</item>
+        <item name="colorPrimary">@color/darknet_surface</item>
+        <item name="colorPrimaryDark">@color/darknet_background</item>
+        <item name="colorAccent">@color/darknet_accent</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

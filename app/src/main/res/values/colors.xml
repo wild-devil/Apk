@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darknet_background">#0B0E11</color>
+    <color name="darknet_surface">#161B22</color>
+    <color name="darknet_text_primary">#E6EDF3</color>
+    <color name="darknet_accent">#58A6FF</color>
+</resources>
