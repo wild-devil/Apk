@@ -335,7 +335,7 @@ android {
             throw new GradleException('signing.properties found but some entries are missing')
         }
     } else {
-        throw new GradleException('signing.properties not found!')
+        logger.lifecycle('No signing.properties found; using debug signing.')
     }
 
     // r17c upstream (API 14); r23 on Apple Silicon, which has no r17 host
