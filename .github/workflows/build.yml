@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout
@@ -16,6 +16,11 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
+
+      - name: Install NDK compatibility library
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libtinfo5
 
       - name: Build Debug APK
         env:
@@ -29,24 +34,20 @@ jobs:
         run: |
           FILE="app/src/main/java/com/psiphon3/psiphonlibrary/EmbeddedValues.java"
 
-          if [ ! -f "$FILE" ]; then
-            echo "ERROR: EmbeddedValues.java not generated"
-            exit 1
-          fi
+          test -f "$FILE" || exit 1
 
-          if grep -Eq 'PROPAGATION_CHANNEL_ID = ""' "$FILE"; then
-            echo "ERROR: Propagation ID is EMPTY"
+          grep -Eq 'PROPAGATION_CHANNEL_ID = ""' "$FILE" && {
+            echo "ERROR: Propagation ID EMPTY"
             exit 1
-          else
-            echo "Propagation ID: NONEMPTY"
-          fi
+          }
 
-          if grep -Eq 'SPONSOR_ID = ""' "$FILE"; then
-            echo "ERROR: Sponsor ID is EMPTY"
+          grep -Eq 'SPONSOR_ID = ""' "$FILE" && {
+            echo "ERROR: Sponsor ID EMPTY"
             exit 1
-          else
-            echo "Sponsor ID: NONEMPTY"
-          fi
+          }
+
+          echo "Propagation ID: NONEMPTY"
+          echo "Sponsor ID: NONEMPTY"
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
