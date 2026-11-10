@@ -1,0 +1,1142 @@
+build	UNKNOWN STEP	﻿2026-11-10T11:56:29.7895958Z Current runner version: '2.338.2'
+build	UNKNOWN STEP	2026-11-10T11:56:29.7932854Z ##[group]Runner Image Provisioner
+build	UNKNOWN STEP	2026-11-10T11:56:29.7934314Z Hosted Compute Agent
+build	UNKNOWN STEP	2026-11-10T11:56:29.7935501Z Version: 20261028.624
+build	UNKNOWN STEP	2026-11-10T11:56:29.7936684Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+build	UNKNOWN STEP	2026-11-10T11:56:29.7938079Z Build Date: 2026-10-28T21:51:42Z
+build	UNKNOWN STEP	2026-11-10T11:56:29.7939483Z Worker ID: {bb63d4a4-43ce-4dee-83b0-b2a296bc49e7}
+build	UNKNOWN STEP	2026-11-10T11:56:29.7940814Z Region: eastus
+build	UNKNOWN STEP	2026-11-10T11:56:29.7942325Z Cloud: Azure
+build	UNKNOWN STEP	2026-11-10T11:56:29.7943311Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:29.7946434Z ##[group]Operating System
+build	UNKNOWN STEP	2026-11-10T11:56:29.7947657Z Ubuntu
+build	UNKNOWN STEP	2026-11-10T11:56:29.7948712Z 24.04.5
+build	UNKNOWN STEP	2026-11-10T11:56:29.7949687Z LTS
+build	UNKNOWN STEP	2026-11-10T11:56:29.7950605Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:29.7952115Z ##[group]Runner Image
+build	UNKNOWN STEP	2026-11-10T11:56:29.7953374Z Image: ubuntu-24.04
+build	UNKNOWN STEP	2026-11-10T11:56:29.7954553Z Version: 20261101.360.1
+build	UNKNOWN STEP	2026-11-10T11:56:29.7956908Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+build	UNKNOWN STEP	2026-11-10T11:56:29.7960624Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+build	UNKNOWN STEP	2026-11-10T11:56:29.7962731Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:29.7964801Z ##[group]GITHUB_TOKEN Permissions
+build	UNKNOWN STEP	2026-11-10T11:56:29.7967933Z Contents: read
+build	UNKNOWN STEP	2026-11-10T11:56:29.7968974Z Metadata: read
+build	UNKNOWN STEP	2026-11-10T11:56:29.7970044Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:29.7973579Z Secret source: Actions
+build	UNKNOWN STEP	2026-11-10T11:56:29.7975153Z Cache mode: write
+build	UNKNOWN STEP	2026-11-10T11:56:29.7977073Z Prepare workflow directory
+build	UNKNOWN STEP	2026-11-10T11:56:29.8472591Z Prepare all required actions
+build	UNKNOWN STEP	2026-11-10T11:56:29.8546322Z Getting action download info
+build	UNKNOWN STEP	2026-11-10T11:56:30.0706356Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+build	UNKNOWN STEP	2026-11-10T11:56:30.1833878Z Download action repository 'actions/setup-java@v4' (SHA:cf277c60eb25467037889841efdb72551f06f6c3)
+build	UNKNOWN STEP	2026-11-10T11:56:30.4062519Z Download action repository 'android-actions/setup-android@v3' (SHA:9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407)
+build	UNKNOWN STEP	2026-11-10T11:56:30.5165464Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	UNKNOWN STEP	2026-11-10T11:56:30.7632408Z Complete job name: build
+build	UNKNOWN STEP	2026-11-10T11:56:30.8698473Z ##[group]Run actions/checkout@v4
+build	UNKNOWN STEP	2026-11-10T11:56:30.8699889Z with:
+build	UNKNOWN STEP	2026-11-10T11:56:30.8700722Z   repository: wild-devil/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:30.8711450Z   token: ***
+build	UNKNOWN STEP	2026-11-10T11:56:30.8712296Z   ssh-strict: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8713152Z   ssh-user: git
+build	UNKNOWN STEP	2026-11-10T11:56:30.8714016Z   persist-credentials: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8714989Z   clean: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8715864Z   sparse-checkout-cone-mode: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8716913Z   fetch-depth: 1
+build	UNKNOWN STEP	2026-11-10T11:56:30.8717758Z   fetch-tags: false
+build	UNKNOWN STEP	2026-11-10T11:56:30.8718630Z   show-progress: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8719507Z   lfs: false
+build	UNKNOWN STEP	2026-11-10T11:56:30.8720311Z   submodules: false
+build	UNKNOWN STEP	2026-11-10T11:56:30.8721184Z   set-safe-directory: true
+build	UNKNOWN STEP	2026-11-10T11:56:30.8722322Z   allow-unsafe-pr-checkout: false
+build	UNKNOWN STEP	2026-11-10T11:56:30.8723686Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.1372087Z Syncing repository: wild-devil/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:31.1376546Z ##[group]Getting Git version info
+build	UNKNOWN STEP	2026-11-10T11:56:31.1378489Z Working directory is '/home/runner/work/Apk/Apk'
+build	UNKNOWN STEP	2026-11-10T11:56:31.1380917Z [command]/usr/bin/git version
+build	UNKNOWN STEP	2026-11-10T11:56:31.1446552Z git version 2.56.0
+build	UNKNOWN STEP	2026-11-10T11:56:31.1481593Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.1496046Z Temporarily overriding HOME='/home/runner/work/_temp/8ff447f5-4092-4d8c-82f4-c0f2ef0c41d4' before making global git config changes
+build	UNKNOWN STEP	2026-11-10T11:56:31.1501658Z Adding repository directory to the temporary git global config as a safe directory
+build	UNKNOWN STEP	2026-11-10T11:56:31.1505733Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Apk/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:31.1562171Z Deleting the contents of '/home/runner/work/Apk/Apk'
+build	UNKNOWN STEP	2026-11-10T11:56:31.1570431Z ##[group]Initializing the repository
+build	UNKNOWN STEP	2026-11-10T11:56:31.1574426Z [command]/usr/bin/git init /home/runner/work/Apk/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:31.1688889Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	UNKNOWN STEP	2026-11-10T11:56:31.1692719Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	UNKNOWN STEP	2026-11-10T11:56:31.1696363Z hint: to use in all of your new repositories, which will suppress this warning,
+build	UNKNOWN STEP	2026-11-10T11:56:31.1699099Z hint: call:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1700647Z hint:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1702774Z hint: 	git config --global init.defaultBranch <name>
+build	UNKNOWN STEP	2026-11-10T11:56:31.1705095Z hint:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1707409Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	UNKNOWN STEP	2026-11-10T11:56:31.1710675Z hint: 'development'. The just-created branch can be renamed via this command:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1713840Z hint:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1715227Z hint: 	git branch -m <name>
+build	UNKNOWN STEP	2026-11-10T11:56:31.1716735Z hint:
+build	UNKNOWN STEP	2026-11-10T11:56:31.1718246Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	UNKNOWN STEP	2026-11-10T11:56:31.1720805Z Initialized empty Git repository in /home/runner/work/Apk/Apk/.git/
+build	UNKNOWN STEP	2026-11-10T11:56:31.1726453Z [command]/usr/bin/git remote add origin https://github.com/wild-devil/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:31.1764492Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.1767432Z ##[group]Disabling automatic garbage collection
+build	UNKNOWN STEP	2026-11-10T11:56:31.1769395Z [command]/usr/bin/git config --local gc.auto 0
+build	UNKNOWN STEP	2026-11-10T11:56:31.1809317Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.1812594Z ##[group]Setting up auth
+build	UNKNOWN STEP	2026-11-10T11:56:31.1817500Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	UNKNOWN STEP	2026-11-10T11:56:31.1861838Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	UNKNOWN STEP	2026-11-10T11:56:31.2274371Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	UNKNOWN STEP	2026-11-10T11:56:31.2320260Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	UNKNOWN STEP	2026-11-10T11:56:31.2575150Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	UNKNOWN STEP	2026-11-10T11:56:31.2625978Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	UNKNOWN STEP	2026-11-10T11:56:31.2873097Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	UNKNOWN STEP	2026-11-10T11:56:31.2921888Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.2923602Z ##[group]Fetching the repository
+build	UNKNOWN STEP	2026-11-10T11:56:31.2935032Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1763b062220df9d7b129b95ac7fc6ee97ff536ad:refs/remotes/origin/main
+build	UNKNOWN STEP	2026-11-10T11:56:31.5870275Z From https://github.com/wild-devil/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:31.5872583Z  * [new ref]         1763b062220df9d7b129b95ac7fc6ee97ff536ad -> origin/main
+build	UNKNOWN STEP	2026-11-10T11:56:31.5877066Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.5879005Z ##[group]Determining the checkout info
+build	UNKNOWN STEP	2026-11-10T11:56:31.5881065Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.5883888Z [command]/usr/bin/git sparse-checkout disable
+build	UNKNOWN STEP	2026-11-10T11:56:31.5948358Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	UNKNOWN STEP	2026-11-10T11:56:31.5988821Z ##[group]Checking out the ref
+build	UNKNOWN STEP	2026-11-10T11:56:31.5993505Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build	UNKNOWN STEP	2026-11-10T11:56:31.6984569Z Switched to a new branch 'main'
+build	UNKNOWN STEP	2026-11-10T11:56:31.6989635Z branch 'main' set up to track 'origin/main'.
+build	UNKNOWN STEP	2026-11-10T11:56:31.6998300Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.7050812Z [command]/usr/bin/git log -1 --format=%H
+build	UNKNOWN STEP	2026-11-10T11:56:31.7085393Z 1763b062220df9d7b129b95ac7fc6ee97ff536ad
+build	UNKNOWN STEP	2026-11-10T11:56:31.7503875Z ##[group]Run actions/setup-java@v4
+build	UNKNOWN STEP	2026-11-10T11:56:31.7504398Z with:
+build	UNKNOWN STEP	2026-11-10T11:56:31.7504807Z   distribution: temurin
+build	UNKNOWN STEP	2026-11-10T11:56:31.7505242Z   java-version: 17
+build	UNKNOWN STEP	2026-11-10T11:56:31.7505666Z   java-package: jdk
+build	UNKNOWN STEP	2026-11-10T11:56:31.7506297Z   check-latest: false
+build	UNKNOWN STEP	2026-11-10T11:56:31.7506717Z   server-id: github
+build	UNKNOWN STEP	2026-11-10T11:56:31.7507141Z   server-username: GITHUB_ACTOR
+build	UNKNOWN STEP	2026-11-10T11:56:31.7507664Z   server-password: GITHUB_TOKEN
+build	UNKNOWN STEP	2026-11-10T11:56:31.7508130Z   overwrite-settings: true
+build	UNKNOWN STEP	2026-11-10T11:56:31.7508574Z   job-status: success
+build	UNKNOWN STEP	2026-11-10T11:56:31.7512092Z   token: ***
+build	UNKNOWN STEP	2026-11-10T11:56:31.7512524Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.9532659Z ##[warning]setup-java v4 is deprecated and will no longer receive updates. Please migrate to actions/setup-java@v5.
+build	UNKNOWN STEP	2026-11-10T11:56:31.9546579Z ##[group]Installed distributions
+build	UNKNOWN STEP	2026-11-10T11:56:31.9585057Z Resolved Java 17.0.21+9 from tool-cache
+build	UNKNOWN STEP	2026-11-10T11:56:31.9596598Z (node:2352) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+build	UNKNOWN STEP	2026-11-10T11:56:31.9597624Z (Use `node --trace-deprecation ...` to show where the warning was created)
+build	UNKNOWN STEP	2026-11-10T11:56:31.9598283Z Setting Java 17.0.21+9 as the default
+build	UNKNOWN STEP	2026-11-10T11:56:31.9600231Z Creating toolchains.xml for JDK version 17 from temurin
+build	UNKNOWN STEP	2026-11-10T11:56:31.9677781Z Writing to /home/runner/.m2/toolchains.xml
+build	UNKNOWN STEP	2026-11-10T11:56:31.9679005Z 
+build	UNKNOWN STEP	2026-11-10T11:56:31.9679933Z Java configuration:
+build	UNKNOWN STEP	2026-11-10T11:56:31.9680650Z   Distribution: temurin
+build	UNKNOWN STEP	2026-11-10T11:56:31.9681608Z   Version: 17.0.21+9
+build	UNKNOWN STEP	2026-11-10T11:56:31.9682590Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+build	UNKNOWN STEP	2026-11-10T11:56:31.9683348Z 
+build	UNKNOWN STEP	2026-11-10T11:56:31.9684324Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:31.9700228Z Creating settings.xml with server-id: github
+build	UNKNOWN STEP	2026-11-10T11:56:31.9734700Z Writing to /home/runner/.m2/settings.xml
+build	UNKNOWN STEP	2026-11-10T11:56:31.9951103Z ##[group]Run android-actions/setup-android@v3
+build	UNKNOWN STEP	2026-11-10T11:56:31.9952068Z with:
+build	UNKNOWN STEP	2026-11-10T11:56:31.9952538Z   cmdline-tools-version: 12266719
+build	UNKNOWN STEP	2026-11-10T11:56:31.9953072Z   accept-android-sdk-licenses: true
+build	UNKNOWN STEP	2026-11-10T11:56:31.9953886Z   log-accepted-android-sdk-licenses: true
+build	UNKNOWN STEP	2026-11-10T11:56:31.9954625Z   packages: tools platform-tools
+build	UNKNOWN STEP	2026-11-10T11:56:31.9955423Z env:
+build	UNKNOWN STEP	2026-11-10T11:56:31.9956272Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+build	UNKNOWN STEP	2026-11-10T11:56:31.9957620Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+build	UNKNOWN STEP	2026-11-10T11:56:31.9958692Z ##[endgroup]
+build	UNKNOWN STEP	2026-11-10T11:56:32.0702556Z Found preinstalled sdkmanager in /usr/local/lib/android/sdk/cmdline-tools/latest with following source.properties:
+build	UNKNOWN STEP	2026-11-10T11:56:32.0704201Z Pkg.Revision=12.0
+build	UNKNOWN STEP	2026-11-10T11:56:32.0705095Z Pkg.Path=cmdline-tools;12.0
+build	UNKNOWN STEP	2026-11-10T11:56:32.0706034Z Pkg.Desc=Android SDK Command-line Tools
+build	UNKNOWN STEP	2026-11-10T11:56:32.0706668Z 
+build	UNKNOWN STEP	2026-11-10T11:56:32.0707171Z Wrong version in preinstalled sdkmanager
+build	UNKNOWN STEP	2026-11-10T11:56:32.0708822Z Downloading commandline tools from https://dl.google.com/android/repository/commandlinetools-linux-12266719_latest.zip
+build	UNKNOWN STEP	2026-11-10T11:56:32.8184773Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/f1e04840-8001-4b14-b8a5-44caa7c99e67
+build	UNKNOWN STEP	2026-11-10T11:56:33.5896993Z Accepting Android SDK licenses
+build	UNKNOWN STEP	2026-11-10T11:56:33.5905288Z [command]/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager --licenses
+build	UNKNOWN STEP	2026-11-10T11:56:34.7063651Z Loading local repository...                                                     
+build	UNKNOWN STEP	2026-11-10T11:56:34.7064688Z [=========                              ] 25% Loading local repository...       
+build	UNKNOWN STEP	2026-11-10T11:56:35.1143014Z [=========                              ] 25% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.4643408Z [==========                             ] 26% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.4682706Z [============                           ] 31% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.4860975Z [============                           ] 32% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.4872858Z [=============                          ] 33% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5104357Z [=============                          ] 35% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5122699Z [==============                         ] 36% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5292704Z [==============                         ] 37% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5294017Z [===============                        ] 38% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5442325Z [===============                        ] 39% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5444942Z [================                       ] 40% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5633519Z [================                       ] 41% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5662304Z [================                       ] 42% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5986192Z [=================                      ] 44% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.5995721Z [=================                      ] 45% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6106764Z [==================                     ] 46% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6110444Z [==================                     ] 47% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6348155Z [===================                    ] 48% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6369335Z [===================                    ] 49% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6494060Z [====================                   ] 50% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6497290Z [====================                   ] 51% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6656612Z [====================                   ] 53% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6657895Z [=====================                  ] 54% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6750055Z [=====================                  ] 55% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6752735Z [======================                 ] 56% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6942992Z [======================                 ] 57% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.6972067Z [=======================                ] 58% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.7409294Z [=======================                ] 59% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.7432184Z [========================               ] 60% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.7808498Z [========================               ] 61% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.7810951Z [=========================              ] 63% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.8563891Z [=========================              ] 64% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.8568534Z [=========================              ] 65% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9125511Z [==========================             ] 66% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9129011Z [==========================             ] 67% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9238948Z [===========================            ] 68% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9251018Z [===========================            ] 69% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9346338Z [============================           ] 70% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9347313Z [============================           ] 72% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9456526Z [=============================          ] 73% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9457657Z [=============================          ] 74% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9562124Z [=============================          ] 75% Fetch remote repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:35.9696351Z [=============================          ] 75% Computing updates...              
+build	UNKNOWN STEP	2026-11-10T11:56:35.9697375Z [=======================================] 100% Computing updates...             
+build	UNKNOWN STEP	2026-11-10T11:56:35.9975866Z 7 of 8 SDK package licenses not accepted.
+build	UNKNOWN STEP	2026-11-10T11:56:35.9984718Z Review licenses that have not been accepted (y/N)? 
+build	UNKNOWN STEP	2026-11-10T11:56:35.9985725Z 1/7: License android-googletv-license:
+build	UNKNOWN STEP	2026-11-10T11:56:35.9986435Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:35.9992032Z Terms and Conditions
+build	UNKNOWN STEP	2026-11-10T11:56:35.9992461Z 
+build	UNKNOWN STEP	2026-11-10T11:56:35.9993104Z This is the Google TV Add-on for the Android Software Development Kit License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:35.9993902Z 
+build	UNKNOWN STEP	2026-11-10T11:56:35.9994221Z 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:35.9994604Z 
+build	UNKNOWN STEP	2026-11-10T11:56:35.9997127Z 1.1 The Google TV Add-on for the Android Software Development Kit (referred to in this License Agreement as the "Google TV Add-on" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Google in relation to your use of the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:35.9999777Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0000763Z 1.2 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0002144Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0002520Z 2. Accepting this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0003017Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0004051Z 2.1 In order to use the Google TV Add-on, you must first agree to this License Agreement. You may not use the Google TV Add-on if you do not accept this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0005227Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0005884Z 2.2 You can accept this License Agreement by:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0006480Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0007197Z (A) clicking to accept or agree to this License Agreement, where this option is made available to you; or
+build	UNKNOWN STEP	2026-11-10T11:56:36.0014195Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0015386Z (B) by actually using the Google TV Add-on. In this case, you agree that use of the Google TV Add-on constitutes acceptance of the License Agreement from that point onwards.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0016789Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0018587Z 2.3 You may not use the Google TV Add-on and may not accept the Licensing Agreement if you are a person barred from receiving the Google TV Add-on under the laws of the United States or other countries including the country in which you are resident or from which you use the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0027634Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0029998Z 2.4 If you are agreeing to be bound by this License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this License Agreement. If you do not have the requisite authority, you may not accept the Licensing Agreement or use the Google TV Add-on on behalf of your employer or other entity.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0035393Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0035795Z 3. Google TV Add-on License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0036322Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0037807Z 3.1 Subject to the terms of this License Agreement, Google grants you a limited, worldwide, royalty-free, non- assignable and non-exclusive license to use the Google TV Add-on solely to develop applications to run on the Google TV platform.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0039461Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0042193Z 3.2 You agree that Google or third parties own all legal right, title and interest in and to the Google TV Add-on, including any Intellectual Property Rights that subsist in the Google TV Add-on. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0054214Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0057972Z 3.3 Except to the extent required by applicable third party licenses, you may not copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the Google TV Add-on or any part of the Google TV Add-on. Except to the extent required by applicable third party licenses, you may not load any part of the Google TV Add-on onto a mobile handset, television, or any other hardware device except a personal computer, combine any part of the Google TV Add-on with other software, or distribute any software or device incorporating a part of the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0062439Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0063926Z 3.4 Use, reproduction and distribution of components of the Google TV Add-on licensed under an open source software license are governed solely by the terms of that open source software license and not this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0073960Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0076869Z 3.5 You agree that the form and nature of the Google TV Add-on that Google provides may change without prior notice to you and that future versions of the Google TV Add-on may be incompatible with applications developed on previous versions of the Google TV Add-on. You agree that Google may stop (permanently or temporarily) providing the Google TV Add-on (or any features within the Google TV Add-on) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0079947Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0082227Z 3.6 Nothing in this License Agreement gives you a right to use any of Google's or it’s licensors’ trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0086579Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0092462Z 3.7 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0093898Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0094256Z 4. Use of the Google TV Add-on by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0094742Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0096408Z 4.1 Google agrees that it obtains no right, title or interest from you (or your licensors) under this License Agreement in or to any software applications that you develop using the Google TV Add-on, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0098246Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0100417Z 4.2 You agree to use the Google TV Add-on and write applications only for purposes that are permitted by (a) this License Agreement and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0102959Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0107681Z 4.3 You agree that if you use the Google TV Add-on to develop applications for general public users, you will protect the privacy and legal rights of those users. If the users provide you with user names, passwords, or other login information or personal information, your must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If the user provides your application with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, the user has given you explicit permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0121229Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0124093Z 4.4 You agree that you will not engage in any activity with the Google TV Add-on, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of any third party including, but not limited to, Google, Multichannel Video Program Distributors or any mobile communications carrier.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0126919Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0129399Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through the Google TV platform and/or applications for the Google TV platform, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0139035Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0141792Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under this License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0146783Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0147210Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.0147772Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0149533Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0151748Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0152163Z 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.0152686Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0155966Z 6.1 In order to continually innovate and improve the Google TV Add-on, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the Google TV Add-on are being used and how they are being used. Before any of this information is collected, the Google TV Add-on will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0202012Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0203289Z 6.2 The data collected is examined in the aggregate to improve the Google TV Add-on and is maintained in accordance with Google's Privacy Policy.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0204464Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0204920Z 7. Third Party Applications for the Google TV Platform
+build	UNKNOWN STEP	2026-11-10T11:56:36.0205540Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0209318Z 7.1 If you use the Google TV Add-on to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0217626Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0220206Z 7.2 You should be aware the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0222738Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0224247Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party. In that case, this License Agreement does not affect your legal relationship with these third parties.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0225999Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0226161Z 8. Using Google TV APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0226415Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0231005Z 8.1 If you use any Google TV API to retrieve data from Google, you acknowledge that the data (“Google TV API Content”) may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service. Some portions of the Google TV API Content are licensed to Google by third parties, including but not limited to Tribune Media Services
+build	UNKNOWN STEP	2026-11-10T11:56:36.0234047Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0234831Z 8.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0235680Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0235953Z 8.3 Except as explicitly permitted in Section 3 (Google TV Add-on License from Google), you must:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0236328Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0236870Z (a) not modify nor format the Google TV API Content except to the extent reasonably and technically necessary to optimize the display such Google TV API Content in your application;
+build	UNKNOWN STEP	2026-11-10T11:56:36.0237532Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0238155Z (b) not edit the Google TV API Content in a manner that renders the Google TV API Content inaccurate of alters its inherent meaning (provided that displaying excerpts will not violate the foregoing); or
+build	UNKNOWN STEP	2026-11-10T11:56:36.0238848Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0239130Z (c) not create any commercial audience measurement tool or service using the Google TV API Content
+build	UNKNOWN STEP	2026-11-10T11:56:36.0239504Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0239612Z 9. Terminating this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0240028Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0240358Z 9.1 This License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0240783Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0241218Z 9.2 If you want to terminate this License Agreement, you may do so by ceasing your use of the Google TV Add-on and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0242091Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0242296Z 9.3 Google may at any time, terminate this License Agreement with you if:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0242705Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0242886Z (A) you have breached any provision of this License Agreement; or
+build	UNKNOWN STEP	2026-11-10T11:56:36.0243159Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0243266Z (B) Google is required to do so by law; or
+build	UNKNOWN STEP	2026-11-10T11:56:36.0243462Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0244091Z (C) the partner with whom Google offered certain parts of Google TV Add-on (such as APIs) to you has terminated its relationship with Google or ceased to offer certain parts of the Google TV Add-on to you; or
+build	UNKNOWN STEP	2026-11-10T11:56:36.0244824Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0245875Z (D) Google decides to no longer providing the Google TV Add-on or certain parts of the Google TV Add-on to users in the country in which you are resident or from which you use the service, or the provision of the Google TV Add-on or certain Google TV Add-on services to you by Google is, in Google's sole discretion, no longer commercially viable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0247002Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0248410Z 9.4 When this License Agreement comes to an end, all of the legal rights, obligations and liabilities that you and Google have benefited from, been subject to (or which have accrued over time whilst this License Agreement has been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of paragraph 14.7 shall continue to apply to such rights, obligations and liabilities indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0249880Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0249977Z 10. DISCLAIMER OF WARRANTIES
+build	UNKNOWN STEP	2026-11-10T11:56:36.0250139Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0250749Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE GOOGLE TV ADD-ON IS AT YOUR SOLE RISK AND THAT THE GOOGLE TV ADD-ON IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0251827Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0252731Z 10.2 YOUR USE OF THE GOOGLE TV ADD-ON AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE GOOGLE TV ADD-ON IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0253869Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0254693Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0255638Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0255734Z 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.0255895Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0257318Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0258794Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0258885Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.0259020Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0261693Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from (a) your use of the Google TV Add-on, (b) any application you develop on the Google TV Add-on that infringes any copyright, trademark, trade secret, trade dress, patent or other intellectual property right of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you with this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0264187Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0264292Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0264477Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0264792Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0265201Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0265286Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.0265430Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0266468Z 14.1 This License Agreement constitute the whole legal agreement between you and Google and govern your use of the Google TV Add-on (excluding any services which Google may provide to you under a separate written agreement), and completely replace any prior agreements between you and Google in relation to the Google TV Add-on.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0267596Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0268585Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in this License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0269663Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0270761Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of this License Agreement is invalid, then that provision will be removed from this License Agreement without affecting the rest of this License Agreement. The remaining provisions of this License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0272070Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0273951Z 14.4 You acknowledge and agree that Google’s API data licensors and each member of the group of companies of which Google is the parent shall be third party beneficiaries to this License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of this License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0275578Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0276498Z 14.5 EXPORT RESTRICTIONS. THE GOOGLE TV ADD-ON IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE GOOGLE TV ADD-ON. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0277627Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0278711Z 14.6 The rights granted in this License Agreement may not be assigned or transferred by either you or Google without the prior written approval of the other party. Neither you nor Google shall be permitted to delegate their responsibilities or obligations under this License Agreement without the prior written approval of the other party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0279892Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0282066Z 14.7 This License Agreement, and your relationship with Google under this License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from this License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0283991Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0284002Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0284089Z August 15, 2011
+build	UNKNOWN STEP	2026-11-10T11:56:36.0284308Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0284579Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0284810Z 2/7: License android-googlexr-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0285293Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0286295Z To get started with the Android XR Emulator System Image SDK, you must agree to the following terms and conditions. As described below, please note that this is a preview, emulated version of the Android XR OS, subject to change, that you use at your own risk.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0287175Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0287348Z This is the Android XR Emulator System Image SDK License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0287615Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0287703Z 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:36.0287824Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0289253Z 1.1 The Android Android XR Emulator System Image SDK (referred to in the License Agreement as the "SDK" and specifically including the Android system files,, packaged APIs, library files (if and when they are made available), and Google applications and APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0290751Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0291705Z 1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: https://source.android.com/, as updated from time to time.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0292502Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0293161Z 1.3 "Google" means Google LLC, organized under the laws of the State of Delaware, USA, and operating under the laws of the USA with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0294015Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0294122Z 2. Accepting this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0294298Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0294706Z 2.1 In order to use the SDK, you must first agree to the License Agreement. You may not use the SDK if you do not accept the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0295202Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0295485Z 2.2 By clicking to accept and/or using this SDK, you hereby agree to the terms of the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0295869Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0296630Z 2.3 You may not use the SDK and may not accept the License Agreement if you are a person barred from receiving the SDK under the laws of the United States or other countries, including the country in which you are resident or from which you use the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0297483Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0298628Z 2.4 If you are agreeing to be bound by the License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to the License Agreement. If you do not have the requisite authority, you may not accept the License Agreement or use the SDK on behalf of your employer or other entity.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0300006Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0300106Z 3. SDK License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0300261Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0300980Z 3.1 Subject to the terms of the License Agreement, Google grants you a limited, worldwide, royalty-free, non-assignable, non-exclusive, and non-sublicensable license to use the SDK solely to develop applications for Android XR.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0301933Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0302609Z 3.2 You may not use this SDK to develop applications for other platforms or to develop another SDK. You are of course free to develop applications for other platforms provided that this SDK is not used for that purpose.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0303367Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0304610Z 3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0305931Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0307848Z 3.4 You may not use the SDK for any purpose not expressly permitted by the License Agreement. Except to the extent required by applicable third party licenses, you may not (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK; or (b) load any part of the SDK onto a mobile handset or any other hardware device except a personal computer, combine any part of the SDK with other software, or distribute any software or device incorporating a part of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0309744Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0311071Z 3.5 Use, reproduction and distribution of components of the SDK licensed under an open source software license are governed solely by the terms of that open source software license and not the License Agreement. You agree to remain a licensee in good standing in regard to such open source software licenses under all the rights granted and to refrain from any actions that may terminate, suspend, or breach such rights.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0312591Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0313915Z 3.6 You agree that the form and nature of the SDK that Google provides may change without prior notice to you and that future versions of the SDK may be incompatible with applications developed on previous versions of the SDK. You agree that Google may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0315329Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0315850Z 3.7 Nothing in the License Agreement gives you a right to use any of Google's trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0316456Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0317011Z 3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0317664Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0317760Z 4. Use of the SDK by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0317907Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0318732Z 4.1 Google agrees that it obtains no right, title or interest from you (or your licensors) under the License Agreement in or to any software applications that you develop using the SDK, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0319639Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0321521Z 4.2 You agree to use the SDK and write applications only for purposes that are permitted by (a) the License Agreement and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0323000Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0325565Z 4.3 You agree that if you use the SDK to develop applications for general public users, you will protect the privacy and legal rights of those users. If the users provide you with user names, passwords, or other login information or personal information, you must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If the user provides your application with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0328157Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0329287Z 4.4 You agree that you will not engage in any activity with the SDK, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of any third party including, but not limited to, Google or any mobile communications carrier.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0330494Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0332503Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through Android and/or applications for Android, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0334452Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0335697Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0337036Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0337960Z 4.7 The SDK is in development, and your testing and feedback are an important part of the development process. By using the SDK, you acknowledge that implementation of some features are still under development and that you should not rely on the SDK having the full functionality of a stable release.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0338971Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0339073Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.0339240Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0340129Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0341112Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0341214Z 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.0341937Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0344537Z 6.1 In order to continually innovate and improve the SDK, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the SDK are being used and how they are being used. Before any of this information is collected, the SDK will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0347333Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0348439Z 6.2 The data collected is examined in the aggregate to improve the SDK and is maintained in accordance with Google's Privacy Policy, which is located at the following URL: https://policies.google.com/privacy
+build	UNKNOWN STEP	2026-11-10T11:56:36.0349706Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0350184Z 6.3 Anonymized and aggregated sets of the data may be shared with Google partners to improve the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0351031Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0351203Z 7. Third Party Applications
+build	UNKNOWN STEP	2026-11-10T11:56:36.0351632Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0354915Z 7.1 If you use the SDK to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0358310Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0361037Z 7.2 You should be aware that the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0364056Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0365679Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party. In that case, the License Agreement does not affect your legal relationship with these third parties.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0367300Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0367445Z 8. Using Android APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0367673Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0367808Z 8.1 Google Data APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0368025Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0370721Z 8.1.1 If you use any API to retrieve data from Google, you acknowledge that the data may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0373738Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0378470Z 8.1.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so. If you use the Android Recognition Service API, documented at the following URL: https://developer.android.com/reference/android/speech/RecognitionService, as updated from time to time, you acknowledge that the use of the API is subject to the Data Processing Addendum for Products where Google is a Data Processor, which is located at the following URL: https://privacy.google.com/businesses/gdprprocessorterms/, as updated from time to time. By clicking to accept, you hereby agree to the terms of the Data Processing Addendum for Products where Google is a Data Processor.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0383444Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0383629Z 9. Terminating this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0383936Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0384465Z 9.1 The License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0385154Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0385817Z 9.2 If you want to terminate the License Agreement, you may do so by ceasing your use of the SDK and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0386636Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0390135Z 9.3 Google may at any time, terminate the License Agreement with you if: (A) you have breached any provision of the License Agreement; or (B) Google is required to do so by law; or (C) the partner with whom Google offered certain parts of SDK (such as APIs) to you has terminated its relationship with Google or ceased to offer certain parts of the SDK to you; or (D) Google decides to no longer provide the SDK or certain parts of the SDK to users in the country in which you are resident or from which you use the service, or the provision of the SDK or certain SDK services to you by Google is, in Google's sole discretion, no longer commercially viable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0394102Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0396607Z 9.4 When the License Agreement comes to an end, all of the legal rights, obligations and liabilities that you and Google have benefited from, been subject to (or which have accrued over time whilst the License Agreement has been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of paragraph 14.7 shall continue to apply to such rights, obligations and liabilities indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0399192Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0399346Z 10. DISCLAIMER OF WARRANTIES
+build	UNKNOWN STEP	2026-11-10T11:56:36.0399616Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0400501Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0401729Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0403118Z 10.2 YOUR USE OF THE SDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0404664Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0406232Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0407795Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0407947Z 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.0408199Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0410616Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0413331Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0413476Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.0413683Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0417677Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from (a) your use of the SDK, (b) any application you develop on the SDK that infringes any copyright, trademark, trade secret, trade dress, patent or other intellectual property right of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you with the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0421956Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0422125Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0422418Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0423680Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the SDK. When these changes are made, Google will make a new version of the License Agreement available on the website where the SDK is made available.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0425085Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0425299Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.0425536Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0427208Z 14.1 The License Agreement constitutes the whole legal agreement between you and Google and governs your use of the SDK (excluding any services which Google may provide to you under a separate written agreement), and completely replaces any prior agreements between you and Google in relation to the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0429215Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0430923Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in the License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0432975Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0434867Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of the License Agreement is invalid, then that provision will be removed from the License Agreement without affecting the rest of the License Agreement. The remaining provisions of the License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0436903Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0439323Z 14.4 You acknowledge and agree that each member of the group of companies of which Google is the parent shall be third party beneficiaries to the License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of the License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0442058Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0443723Z 14.5 EXPORT RESTRICTIONS. THE SDK IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE SDK. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0445323Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0447191Z 14.6 The rights granted in the License Agreement may not be assigned or transferred by either you or Google without the prior written approval of the other party. Neither you nor Google shall be permitted to delegate their responsibilities or obligations under the License Agreement without the prior written approval of the other party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0449215Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0452488Z 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0455896Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0456328Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0456711Z 3/7: License android-sdk-arm-dbt-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0457184Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0457606Z Terms and Conditions
+build	UNKNOWN STEP	2026-11-10T11:56:36.0457826Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0458105Z This is the Android Software Development Kit License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0458541Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0458674Z 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:36.0458872Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0460883Z 1.1 The Android Software Development Kit (referred to in the License Agreement as the "SDK" and specifically including the Android system files, packaged APIs, and Google APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0463183Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0464325Z 1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0465612Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0467542Z 1.3 A "compatible implementation" means any Android device that (i) complies with the Android Compatibility Definition document, which can be found at the Android compatibility website (http://source.android.com/compatibility) and which may be updated from time to time; and (ii) successfully passes the Android Compatibility Test Suite (CTS).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0469762Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0470619Z 1.4 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0472005Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0472013Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0472177Z 2. Accepting the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0472442Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0473009Z 2.1 In order to use the SDK, you must first agree to the License Agreement. You may not use the SDK if you do not accept the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0473669Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0473943Z 2.2 By clicking to accept, you hereby agree to the terms of the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0474387Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0475407Z 2.3 You may not use the SDK and may not accept the License Agreement if you are a person barred from receiving the SDK under the laws of the United States or other countries, including the country in which you are resident or from which you use the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0476563Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0478105Z 2.4 If you are agreeing to be bound by the License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to the License Agreement. If you do not have the requisite authority, you may not accept the License Agreement or use the SDK on behalf of your employer or other entity.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0479982Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0479988Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0480110Z 3. SDK License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0480308Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0481775Z 3.1 Subject to the terms of the License Agreement, Google grants you a limited, worldwide, royalty-free, non-assignable, non-exclusive, and non-sublicensable license to use the SDK solely to develop applications for compatible implementations of Android.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0483069Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0484522Z 3.2 You may not use this SDK to develop applications for other platforms (including non-compatible implementations of Android) or to develop another SDK. You are of course free to develop applications for other platforms, including non-compatible implementations of Android, provided that this SDK is not used for that purpose.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0486087Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0487769Z 3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0489557Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0490714Z 3.4 You may not use the SDK for any purpose not expressly permitted by the License Agreement. Except to the extent required by applicable third party licenses, you may not copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0492135Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0492794Z 3.5 Use, reproduction and distribution of components of the SDK licensed under an open source software license are governed solely by the terms of that open source software license and not the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0493529Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0494848Z 3.6 You agree that the form and nature of the SDK that Google provides may change without prior notice to you and that future versions of the SDK may be incompatible with applications developed on previous versions of the SDK. You agree that Google may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0496412Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0496940Z 3.7 Nothing in the License Agreement gives you a right to use any of Google's trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0497587Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0498151Z 3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0498802Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0498806Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0498903Z 4. Use of the SDK by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0499052Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0499882Z 4.1 Google agrees that it obtains no right, title or interest from you (or your licensors) under the License Agreement in or to any software applications that you develop using the SDK, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0500798Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0502347Z 4.2 You agree to use the SDK and write applications only for purposes that are permitted by (a) the License Agreement and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0503569Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0506299Z 4.3 You agree that if you use the SDK to develop applications for general public users, you will protect the privacy and legal rights of those users. If the users provide you with user names, passwords, or other login information or personal information, you must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If the user provides your application with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0508930Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0510063Z 4.4 You agree that you will not engage in any activity with the SDK, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of any third party including, but not limited to, Google or any mobile communications carrier.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0511507Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0512616Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through Android and/or applications for Android, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0513778Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0515017Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0516335Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0517847Z 4.7 This software enables the execution of intellectual property owned by Arm Limited. You agree that your use of the software, that allows execution of ARM Instruction Set Architecture (“ISA”) compliant executables for application development and debug only on x86 desktop, laptop, customer on-premise servers, and customer-procured cloud-based environments.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0519120Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0519224Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.0519391Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0520283Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0521663Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0521772Z 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.0521924Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0523471Z 6.1 In order to continually innovate and improve the SDK, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the SDK are being used and how they are being used. Before any of this information is collected, the SDK will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0525085Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0525468Z 6.2 The data collected is examined in the aggregate to improve the SDK and is maintained in accordance with Google's Privacy Policy.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0525958Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0525963Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0526058Z 7. Third Party Applications
+build	UNKNOWN STEP	2026-11-10T11:56:36.0526219Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0528274Z 7.1 If you use the SDK to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0530244Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0531985Z 7.2 You should be aware the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0533618Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0534463Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party. In that case, the License Agreement does not affect your legal relationship with these third parties.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535388Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535399Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535490Z 8. Using Android APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535630Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535715Z 8.1 Google Data APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0535847Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0537406Z 8.1.1 If you use any API to retrieve data from Google, you acknowledge that the data may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0539054Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0542023Z 8.1.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so. If you use the Android Recognition Service API, documented at the following URL: https://developer.android.com/reference/android/speech/RecognitionService, as updated from time to time, you acknowledge that the use of the API is subject to the Data Processing Addendum for Products where Google is a Data Processor, which is located at the following URL: https://privacy.google.com/businesses/gdprprocessorterms/, as updated from time to time. By clicking to accept, you hereby agree to the terms of the Data Processing Addendum for Products where Google is a Data Processor.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0544954Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0544958Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0545071Z 9. Terminating the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0545264Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0545581Z 9.1 The License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0545988Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0546372Z 9.2 If you want to terminate the License Agreement, you may do so by ceasing your use of the SDK and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0546843Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0548857Z 9.3 Google may at any time, terminate the License Agreement with you if: (A) you have breached any provision of the License Agreement; or (B) Google is required to do so by law; or (C) the partner with whom Google offered certain parts of SDK (such as APIs) to you has terminated its relationship with Google or ceased to offer certain parts of the SDK to you; or (D) Google decides to no longer provide the SDK or certain parts of the SDK to users in the country in which you are resident or from which you use the service, or the provision of the SDK or certain SDK services to you by Google is, in Google's sole discretion, no longer commercially viable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0550946Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0552685Z 9.4 When the License Agreement comes to an end, all of the legal rights, obligations and liabilities that you and Google have benefited from, been subject to (or which have accrued over time whilst the License Agreement has been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of paragraph 14.7 shall continue to apply to such rights, obligations and liabilities indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0554195Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0554200Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0554298Z 10. DISCLAIMER OF WARRANTIES
+build	UNKNOWN STEP	2026-11-10T11:56:36.0554467Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0554982Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0555593Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0556395Z 10.2 YOUR USE OF THE SDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0557313Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0558126Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0559017Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0559021Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0559114Z 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.0559274Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0560662Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0562349Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0562354Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0562449Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.0562581Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0564907Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from (a) your use of the SDK, (b) any application you develop on the SDK that infringes any copyright, trademark, trade secret, trade dress, patent or other intellectual property right of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you with the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0567513Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0567518Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0567655Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0567838Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0568566Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the SDK. When these changes are made, Google will make a new version of the License Agreement available on the website where the SDK is made available.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0569382Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0569387Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0569473Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.0569617Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0570949Z 14.1 The License Agreement constitutes the whole legal agreement between you and Google and governs your use of the SDK (excluding any services which Google may provide to you under a separate written agreement), and completely replaces any prior agreements between you and Google in relation to the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0572984Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0574439Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in the License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0576138Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0578126Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of the License Agreement is invalid, then that provision will be removed from the License Agreement without affecting the rest of the License Agreement. The remaining provisions of the License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0580150Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0582919Z 14.4 You acknowledge and agree that each member of the group of companies of which Google is the parent shall be third party beneficiaries to the License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of the License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0585555Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0587038Z 14.5 EXPORT RESTRICTIONS. THE SDK IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE SDK. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0588587Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0591068Z 14.6 The rights granted in the License Agreement may not be assigned or transferred by either you or Google without the prior written approval of the other party. Neither you nor Google shall be permitted to delegate their responsibilities or obligations under the License Agreement without the prior written approval of the other party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0593352Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0596365Z 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0599682Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0599688Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0599834Z January 16, 2019
+build	UNKNOWN STEP	2026-11-10T11:56:36.0600189Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0600623Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0601220Z 4/7: License android-sdk-preview-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0601891Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0604317Z To get started with the Android SDK Preview, you must agree to the following terms and conditions. As described below, please note that this is a preview version of the Android SDK, subject to change, that you use at your own risk. The Android SDK Preview is not a stable release, and may contain errors and defects that can result in serious damage to your computer systems, devices and data.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0606599Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0606947Z This is the Android SDK Preview License Agreement (the "License Agreement").
+build	UNKNOWN STEP	2026-11-10T11:56:36.0607472Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0607611Z 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:36.0607793Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0610508Z 1.1 The Android SDK Preview (referred to in the License Agreement as the “Preview” and specifically including the Android system files, packaged APIs, and Preview library files, if and when they are made available) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0613463Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0614611Z 1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0615863Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0616863Z 1.3 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0617867Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0618040Z 2. Accepting the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0618334Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0619063Z 2.1 In order to use the Preview, you must first agree to the License Agreement. You may not use the Preview if you do not accept the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0619939Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0620517Z 2.2 By clicking to accept and/or using the Preview, you hereby agree to the terms of the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0621619Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0622456Z 2.3 You may not use the Preview and may not accept the License Agreement if you are a person barred from receiving the Preview under the laws of the United States or other countries including the country in which you are resident or from which you use the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0623367Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0624767Z 2.4 If you will use the Preview internally within your company or organization you agree to be bound by the License Agreement on behalf of your employer or other entity, and you represent and warrant that you have full legal authority to bind your employer or such entity to the License Agreement. If you do not have the requisite authority, you may not accept the License Agreement or use the Preview on behalf of your employer or other entity.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0626230Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0626338Z 3. Preview License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0626513Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0627506Z 3.1 Subject to the terms of the License Agreement, Google grants you a royalty-free, non-assignable, non-exclusive, non-sublicensable, limited, revocable license to use the Preview, personally or internally within your company or organization, solely to develop applications to run on the Android platform.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0628594Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0629874Z 3.2 You agree that Google or third parties owns all legal right, title and interest in and to the Preview, including any Intellectual Property Rights that subsist in the Preview. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0631229Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0633416Z 3.3 You may not use the Preview for any purpose not expressly permitted by the License Agreement. Except to the extent required by applicable third party licenses, you may not: (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the Preview or any part of the Preview; or (b) load any part of the Preview onto a mobile handset or any other hardware device except a personal computer, combine any part of the Preview with other software, or distribute any software or device incorporating a part of the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0635588Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0636386Z 3.4 You agree that you will not take any actions that may cause or result in the fragmentation of Android, including but not limited to distributing, participating in the creation of, or promoting in any way a software development kit derived from the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0637272Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0638610Z 3.5 Use, reproduction and distribution of components of the Preview licensed under an open source software license are governed solely by the terms of that open source software license and not the License Agreement. You agree to remain a licensee in good standing in regard to such open source software licenses under all the rights granted and to refrain from any actions that may terminate, suspend, or breach such rights.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0640041Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0641819Z 3.6 You agree that the form and nature of the Preview that Google provides may change without prior notice to you and that future versions of the Preview may be incompatible with applications developed on previous versions of the Preview. You agree that Google may stop (permanently or temporarily) providing the Preview (or any features within the Preview) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0643343Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0643890Z 3.7 Nothing in the License Agreement gives you a right to use any of Google's trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0644494Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0645074Z 3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0645749Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0645846Z 4. Use of the Preview by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0646010Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0646971Z 4.1 Google agrees that nothing in the License Agreement gives Google any right, title or interest from you (or your licensors) under the License Agreement in or to any software applications that you develop using the Preview, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0648020Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0649197Z 4.2 You agree to use the Preview and write applications only for purposes that are permitted by (a) the License Agreement, and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0651537Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0655521Z 4.3 You agree that if you use the Preview to develop applications, you will protect the privacy and legal rights of users. If users provide you with user names, passwords, or other login information or personal information, you must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If users provide you with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, each user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0658051Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0659005Z 4.4 You agree that you will not engage in any activity with the Preview, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of Google or any third party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0660224Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0661611Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through Android and/or applications for Android, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0662863Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0664112Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0665440Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0666972Z 4.7 The Preview is in development, and your testing and feedback are an important part of the development process. By using the Preview, you acknowledge that implementation of some features are still under development and that you should not rely on the Preview having the full functionality of a stable release. You agree not to publicly distribute or ship any application using this Preview as this Preview will no longer be supported after the official Android SDK is released.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0668586Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0668821Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.0668995Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0669886Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0670876Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0670975Z 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.0671124Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0673027Z 6.1 In order to continually innovate and improve the Preview, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the Preview are being used and how they are being used. Before any of this information is collected, the Preview will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0674735Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0675340Z 6.2 The data collected is examined in the aggregate to improve the Preview and is maintained in accordance with Google's Privacy Policy located at http://www.google.com/policies/privacy/.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0676025Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0676129Z 7. Third Party Applications
+build	UNKNOWN STEP	2026-11-10T11:56:36.0676286Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0678190Z 7.1 If you use the Preview to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0680160Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0682006Z 7.2 You should be aware the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0683837Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0684358Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0684955Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0685049Z 8. Using Google APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0685187Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0685272Z 8.1 Google APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0685398Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0686968Z 8.1.1 If you use any API to retrieve data from Google, you acknowledge that the data may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0688625Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0689396Z 8.1.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0690238Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0690348Z 9. Terminating the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0690534Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0690842Z 9.1 the License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0691602Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0692038Z 9.2 If you want to terminate the License Agreement, you may do so by ceasing your use of the Preview and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0692547Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0692839Z 9.3 Google may at any time, terminate the License Agreement, with or without cause, upon notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0693219Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0694267Z 9.4 The License Agreement will automatically terminate without notice or other action upon the earlier of: (A) when Google ceases to provide the Preview or certain parts of the Preview to users in the country in which you are resident or from which you use the service; and (B) Google issues a final release version of the Android SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0695387Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0696133Z 9.5 When the License Agreement is terminated, the license granted to you in the License Agreement will terminate, you will immediately cease all use of the Preview, and the provisions of paragraphs 10, 11, 12 and 14 shall survive indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0696967Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0697049Z 10. DISCLAIMERS
+build	UNKNOWN STEP	2026-11-10T11:56:36.0697174Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0697724Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE PREVIEW IS AT YOUR SOLE RISK AND THAT THE PREVIEW IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0698356Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0700140Z 10.2 YOUR USE OF THE PREVIEW AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE PREVIEW IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE. WITHOUT LIMITING THE FOREGOING, YOU UNDERSTAND THAT THE PREVIEW IS NOT A STABLE RELEASE AND MAY CONTAIN ERRORS, DEFECTS AND SECURITY VULNERABILITIES THAT CAN RESULT IN SIGNIFICANT DAMAGE, INCLUDING THE COMPLETE, IRRECOVERABLE LOSS OF USE OF YOUR COMPUTER SYSTEM OR OTHER DEVICE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0702292Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0703109Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0704007Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0704109Z 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.0704260Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0705655Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0708063Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0708163Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.0708317Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0710950Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys’ fees) arising out of or accruing from (a) your use of the Preview, (b) any application you develop on the Preview that infringes any Intellectual Property Rights of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you of the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0713503Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0713616Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0713804Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0714560Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the Preview. When these changes are made, Google will make a new version of the License Agreement available on the website where the Preview is made available.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0715577Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0715675Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.0715825Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0716821Z 14.1 the License Agreement constitutes the whole legal agreement between you and Google and governs your use of the Preview (excluding any services which Google may provide to you under a separate written agreement), and completely replaces any prior agreements between you and Google in relation to the Preview.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0717900Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0718883Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in the License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0720129Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0722018Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of the License Agreement is invalid, then that provision will be removed from the License Agreement without affecting the rest of the License Agreement. The remaining provisions of the License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0723508Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0724945Z 14.4 You acknowledge and agree that each member of the group of companies of which Google is the parent shall be third party beneficiaries to the License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of the License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0726447Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0727309Z 14.5 EXPORT RESTRICTIONS. THE PREVIEW IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE PREVIEW. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0728265Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0729255Z 14.6 The License Agreement may not be assigned or transferred by you without the prior written approval of Google, and any attempted assignment without such approval will be void. You shall not delegate your responsibilities or obligations under the License Agreement without the prior written approval of Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0730695Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0733463Z 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0735773Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0735920Z June 2014.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0736256Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0736679Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0737060Z 5/7: License google-gdk-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0737499Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0738091Z This is a Developer Preview of the GDK that is subject to change.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0738555Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0738744Z Terms and Conditions
+build	UNKNOWN STEP	2026-11-10T11:56:36.0739039Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0739273Z This is the Glass Development Kit License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0739674Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0739817Z 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:36.0740030Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0742592Z 1.1 The Glass Development Kit (referred to in this License Agreement as the "GDK" and specifically including the Android system files, packaged APIs, and GDK library files, if and when they are made available) is licensed to you subject to the terms of this License Agreement. This License Agreement forms a legally binding contract between you and Google in relation to your use of the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0744920Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0745323Z 1.2 "Glass" means Glass devices and the Glass software stack for use on Glass devices.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0745877Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0745884Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0747060Z 1.3 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: http://source.android.com/, as updated from time to time.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0748377Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0749206Z 1.4 "Google" means Google Inc., a Delaware corporation with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0750206Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0750382Z 2. Accepting this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0750694Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0751656Z 2.1 In order to use the GDK, you must first agree to this License Agreement. You may not use the GDK if you do not accept this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0752532Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0752916Z 2.2 By clicking to accept, you hereby agree to the terms of this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0753449Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0754775Z 2.3 You may not use the GDK and may not accept the License Agreement if you are a person barred from receiving the GDK under the laws of the United States or other countries including the country in which you are resident or from which you use the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0756272Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0757436Z 2.4 If you are agreeing to be bound by this License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this License Agreement. If you do not have the requisite authority, you may not accept the License Agreement or use the GDK on behalf of your employer or other entity.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0758687Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0758797Z 3. GDK License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0758956Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0759714Z 3.1 Subject to the terms of this License Agreement, Google grants you a limited, worldwide, royalty-free, non-assignable and non-exclusive license to use the GDK solely to develop applications to run on the Glass platform for Glass devices.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0760566Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0762125Z 3.2 You agree that Google or third parties own all legal right, title and interest in and to the GDK, including any Intellectual Property Rights that subsist in the GDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0763730Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0765686Z 3.3 You may not use the GDK for any purpose not expressly permitted by this License Agreement. Except to the extent required by applicable third party licenses, you may not: (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the GDK or any part of the GDK; or (b) load any part of the GDK onto a mobile handset or wearable computing device or any other hardware device except a Glass device personal computer, combine any part of the GDK with other software, or distribute any software or device incorporating a part of the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0767724Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0768493Z 3.4 You agree that you will not take any actions that may cause or result in the fragmentation of Glass, including but not limited to distributing, participating in the creation of, or promoting in any way a software development kit derived from the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0769348Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0769991Z 3.5 Use, reproduction and distribution of components of the GDK licensed under an open source software license are governed solely by the terms of that open source software license and not this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0770730Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0772459Z 3.6 You agree that the form and nature of the GDK that Google provides may change without prior notice to you and that future versions of the GDK may be incompatible with applications developed on previous versions of the GDK. You agree that Google may stop (permanently or temporarily) providing the GDK (or any features within the GDK) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0773898Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0774455Z 3.7 Nothing in this License Agreement gives you a right to use any of Google's trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0775077Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0775634Z 3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0776295Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0776299Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0777456Z 3.9 Your use of any Android system files, packaged APIs, or other components of the GDK which are part of the Android Software Development Kit is subject to the terms of the Android Software Development Kit License Agreement located at http://developer.android.com/sdk/terms.html. These terms are hereby incorporated by reference into this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0778678Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0778775Z 4. Use of the GDK by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0778930Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0779755Z 4.1 Google agrees that it obtains no right, title or interest from you (or your licensors) under this License Agreement in or to any software applications that you develop using the GDK, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0780669Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0782914Z 4.2 You agree to use the GDK and write applications only for purposes that are permitted by (a) this License Agreement, (b) the Glass Platform Developer Policies (located at https://developers.google.com/glass/policies, and hereby incorporated into this License Agreement by reference), and (c) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0785542Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0788985Z 4.3 You agree that if you use the GDK to develop applications for general public users, you will protect the privacy and legal rights of those users. If the users provide you with user names, passwords, or other login information or personal information, you must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If the user provides your application with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0792118Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0793147Z 4.4 You agree that you will not engage in any activity with the GDK, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of any third party including, but not limited to, Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0794246Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0795322Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through Glass and/or applications for Glass, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0796480Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0797958Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under this License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0800406Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0800413Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0802763Z 4.7 The GDK is in development, and your testing and feedback are an important part of the development process. By using the GDK, you acknowledge that implementation of some features are still under development and that you should not rely on the GDK, Glass devices, Glass system software, Google Mirror API, or Glass services having the full functionality of a stable release.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0805120Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0805342Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.0805705Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0807341Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0809045Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0809200Z 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.0809441Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0809448Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0812232Z 6.1 In order to continually innovate and improve the GDK, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the GDK are being used and how they are being used. Before any of this information is collected, the GDK will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0814986Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0815628Z 6.2 The data collected is examined in the aggregate to improve the GDK and is maintained in accordance with Google's Privacy Policy.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0816480Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0816688Z 7. Third Party Applications
+build	UNKNOWN STEP	2026-11-10T11:56:36.0816982Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0820194Z 7.1 If you use the GDK to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0824021Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0826712Z 7.2 You should be aware the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0829539Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0831122Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party. In that case, this License Agreement does not affect your legal relationship with these third parties.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0833168Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0833371Z 8. Using Google APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0833694Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0833890Z 8.1 Google APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.0834203Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0837117Z 8.1.1 If you use any API to retrieve data from Google, you acknowledge that the data may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0839927Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0841236Z 8.1.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0842880Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0843048Z 9. Terminating this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0843350Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0843869Z 9.1 This License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0844560Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0845218Z 9.2 If you want to terminate this License Agreement, you may do so by ceasing your use of the GDK and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0846032Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0849496Z 9.3 Google may at any time, terminate this License Agreement with you if: (A) you have breached any provision of this License Agreement; or (B) Google is required to do so by law; or (C) the partner with whom Google offered certain parts of GDK (such as APIs) to you has terminated its relationship with Google or ceased to offer certain parts of the GDK to you; or (D) Google decides to no longer provide the GDK or certain parts of the GDK to users in the country in which you are resident or from which you use the service, or the provision of the GDK or certain GDK services to you by Google is, in Google's sole discretion, no longer commercially viable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0853233Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0855645Z 9.4 When this License Agreement comes to an end, all of the legal rights, obligations and liabilities that you and Google have benefited from, been subject to (or which have accrued over time whilst this License Agreement has been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of paragraph 14.7 shall continue to apply to such rights, obligations and liabilities indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0858204Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0858357Z 10. DISCLAIMER OF WARRANTIES
+build	UNKNOWN STEP	2026-11-10T11:56:36.0858607Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0859653Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE GDK IS AT YOUR SOLE RISK AND THAT THE GDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0860692Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0862232Z 10.2 YOUR USE OF THE GDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE GDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0863761Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0865156Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0866752Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0866979Z 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.0867288Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0869672Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0872471Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0872624Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.0872850Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0877145Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from (a) your use of the GDK, (b) any application you develop on the GDK that infringes any copyright, trademark, trade secret, trade dress, patent or other intellectual property right of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you with this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0881817Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0881988Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0882287Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0883524Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the GDK. When these changes are made, Google will make a new version of the License Agreement available on the website where the GDK is made available.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0884920Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0885072Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.0885304Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0887055Z 14.1 This License Agreement constitutes the whole legal agreement between you and Google and governs your use of the GDK (excluding any services which Google may provide to you under a separate written agreement), and completely replaces any prior agreements between you and Google in relation to the GDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0888968Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0890754Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in this License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0892864Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0894859Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of this License Agreement is invalid, then that provision will be removed from this License Agreement without affecting the rest of this License Agreement. The remaining provisions of this License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0897014Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0899470Z 14.4 You acknowledge and agree that each member of the group of companies of which Google is the parent shall be third party beneficiaries to this License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of this License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to this License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0902371Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0903799Z 14.5 EXPORT RESTRICTIONS. THE GDK IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE GDK. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0905377Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0907239Z 14.6 The rights granted in this License Agreement may not be assigned or transferred by either you or Google without the prior written approval of the other party. Neither you nor Google shall be permitted to delegate their responsibilities or obligations under this License Agreement without the prior written approval of the other party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0909247Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0912836Z 14.7 This License Agreement, and your relationship with Google under this License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from this License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0916222Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0916370Z November 19, 2013
+build	UNKNOWN STEP	2026-11-10T11:56:36.0916745Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0917194Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0917579Z 6/7: License microxr-sysimage-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.0918058Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.0919793Z To get started with the microXR Emulator System Image SDK, you must agree to the following terms and conditions. As described below, please note that this is a preview, emulated version of microXR, subject to change, that you use at your own risk.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0921536Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0921921Z This is the microXR Emulator System Image SDK License Agreement 1. Introduction
+build	UNKNOWN STEP	2026-11-10T11:56:36.0922500Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0925098Z 1.1 The microXR Emulator System Image SDK (referred to in the License Agreement as the "SDK" and specifically including the Android system files,, packaged APIs, library files (if and when they are made available), and Google applications and APIs add-ons) is licensed to you subject to the terms of the License Agreement. The License Agreement forms a legally binding contract between you and Google in relation to your use of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0927881Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0929022Z 1.2 "Android" means the Android software stack for devices, as made available under the Android Open Source Project, which is located at the following URL: https://source.android.com/, as updated from time to time.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0930309Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0931587Z 1.3 "Google" means Google LLC, organized under the laws of the State of Delaware, USA, and operating under the laws of the USA with principal place of business at 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0932866Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0932874Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0933033Z 2. Accepting this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.0933325Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0933999Z 2.1 In order to use the SDK, you must first agree to the License Agreement. You may not use the SDK if you do not accept the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0934818Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0935286Z 2.2 By clicking to accept and/or using this SDK, you hereby agree to the terms of the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0935916Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0937207Z 2.3 You may not use the SDK and may not accept the License Agreement if you are a person barred from receiving the SDK under the laws of the United States or other countries, including the country in which you are resident or from which you use the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0938846Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0940942Z 2.4 If you are agreeing to be bound by the License Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to the License Agreement. If you do not have the requisite authority, you may not accept the License Agreement or use the SDK on behalf of your employer or other entity. 3. SDK License from Google
+build	UNKNOWN STEP	2026-11-10T11:56:36.0943338Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0944647Z 3.1 Subject to the terms of the License Agreement, Google grants you a limited, worldwide, royalty-free, non-assignable, non-exclusive, and non-sublicensable license to use the SDK solely to develop applications for microXR and/or Android XR.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0946094Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0947235Z 3.2 You may not use this SDK to develop applications for other platforms or to develop another SDK. You are of course free to develop applications for other platforms provided that this SDK is not used for that purpose.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0948543Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0950812Z 3.3 You agree that Google or third parties own all legal right, title and interest in and to the SDK, including any Intellectual Property Rights that subsist in the SDK. "Intellectual Property Rights" means any and all rights under patent law, copyright law, trade secret law, trademark law, and any and all other proprietary rights. Google reserves all rights not expressly granted to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0953377Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0956513Z 3.4 You may not use the SDK for any purpose not expressly permitted by the License Agreement. Except to the extent required by applicable third party licenses, you may not (a) copy (except for backup purposes), modify, adapt, redistribute, decompile, reverse engineer, disassemble, or create derivative works of the SDK or any part of the SDK; or (b) load any part of the SDK onto a mobile handset or any other hardware device except a personal computer, combine any part of the SDK with other software, or distribute any software or device incorporating a part of the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0959862Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0962404Z 3.5 Use, reproduction and distribution of components of the SDK licensed under an open source software license are governed solely by the terms of that open source software license and not the License Agreement. You agree to remain a licensee in good standing in regard to such open source software licenses under all the rights granted and to refrain from any actions that may terminate, suspend, or breach such rights.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0965001Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0967574Z 3.6 You agree that the form and nature of the SDK that Google provides may change without prior notice to you and that future versions of the SDK may be incompatible with applications developed on previous versions of the SDK. You agree that Google may stop (permanently or temporarily) providing the SDK (or any features within the SDK) to you or to users generally at Google's sole discretion, without prior notice to you.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0970101Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0970982Z 3.7 Nothing in the License Agreement gives you a right to use any of Google's trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0972190Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0973144Z 3.8 You agree that you will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices) that may be affixed to or contained within the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0974326Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0974469Z 4. Use of the SDK by You
+build	UNKNOWN STEP	2026-11-10T11:56:36.0974700Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0976099Z 4.1 Google agrees that it obtains no right, title or interest from you (or your licensors) under the License Agreement in or to any software applications that you develop using the SDK, including any intellectual property rights that subsist in those applications.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0977858Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0979771Z 4.2 You agree to use the SDK and write applications only for purposes that are permitted by (a) the License Agreement and (b) any applicable law, regulation or generally accepted practices or guidelines in the relevant jurisdictions (including any laws regarding the export of data or software to and from the United States or other relevant countries).
+build	UNKNOWN STEP	2026-11-10T11:56:36.0982017Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0986375Z 4.3 You agree that if you use the SDK to develop applications for general public users, you will protect the privacy and legal rights of those users. If the users provide you with user names, passwords, or other login information or personal information, you must make the users aware that the information will be available to your application, and you must provide legally adequate privacy notice and protection for those users. If your application stores personal or sensitive information provided by users, it must do so securely. If the user provides your application with Google Account information, your application may only use that information to access the user's Google Account when, and for the limited purposes for which, the user has given you permission to do so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0990796Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0993054Z 4.4 You agree that you will not engage in any activity with the SDK, including the development or distribution of an application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or other properties or services of any third party including, but not limited to, Google or any mobile communications carrier.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0995172Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.0997093Z 4.5 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any data, content, or resources that you create, transmit or display through Android and/or applications for Android, and for the consequences of your actions (including any loss or damage which Google may suffer) by doing so.
+build	UNKNOWN STEP	2026-11-10T11:56:36.0999165Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1001512Z 4.6 You agree that you are solely responsible for (and that Google has no responsibility to you or to any third party for) any breach of your obligations under the License Agreement, any applicable third party contract or Terms of Service, or any applicable law or regulation, and for the consequences (including any loss or damage which Google or any third party may suffer) of any such breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1003826Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1005368Z 4.7 The SDK is in development, and your testing and feedback are an important part of the development process. By using the SDK, you acknowledge that implementation of some features are still under development and that you should not rely on the SDK having the full functionality of a stable release.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1007076Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1007244Z 5. Your Developer Credentials
+build	UNKNOWN STEP	2026-11-10T11:56:36.1007520Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1009257Z 5.1 You agree that you are responsible for maintaining the confidentiality of any developer credentials that may be issued to you by Google or which you may choose yourself and that you will be solely responsible for all applications that are developed under your developer credentials. 6. Privacy and Information
+build	UNKNOWN STEP	2026-11-10T11:56:36.1011129Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1013961Z 6.1 In order to continually innovate and improve the SDK, Google may collect certain usage statistics from the software including but not limited to a unique identifier, associated IP address, version number of the software, and information on which tools and/or services in the SDK are being used and how they are being used. Before any of this information is collected, the SDK will notify you and seek your consent. If you withhold consent, the information will not be collected.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1016758Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1017865Z 6.2 The data collected is examined in the aggregate to improve the SDK and is maintained in accordance with Google's Privacy Policy, which is located at the following URL: https://policies.google.com/privacy
+build	UNKNOWN STEP	2026-11-10T11:56:36.1019288Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1019909Z 6.3 Anonymized and aggregated sets of the data may be shared with Google partners to improve the SDK. 7. Third Party Applications
+build	UNKNOWN STEP	2026-11-10T11:56:36.1020450Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1060489Z 7.1 If you use the SDK to run applications developed by a third party or that access data, content or resources provided by a third party, you agree that Google is not responsible for those applications, data, content, or resources. You understand that all data, content or resources which you may access through such third party applications are the sole responsibility of the person from which they originated and that Google is not liable for any loss or damage that you may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1063990Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1066809Z 7.2 You should be aware that the data, content, and resources presented to you through such a third party application may be protected by intellectual property rights which are owned by the providers (or by other persons or companies on their behalf). You may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant owners.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1069618Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1071712Z 7.3 You acknowledge that your use of such third party applications, data, content, or resources may be subject to separate terms between you and the relevant third party. In that case, the License Agreement does not affect your legal relationship with these third parties. 8. Using Android APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.1073505Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1073665Z 8.1 Google Data APIs
+build	UNKNOWN STEP	2026-11-10T11:56:36.1073899Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1076684Z 8.1.1 If you use any API to retrieve data from Google, you acknowledge that the data may be protected by intellectual property rights which are owned by Google or those parties that provide the data (or by other persons or companies on their behalf). Your use of any such API may be subject to additional Terms of Service. You may not modify, rent, lease, loan, sell, distribute or create derivative works based on this data (either in whole or in part) unless allowed by the relevant Terms of Service.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1079508Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1086883Z 8.1.2 If you use any API to retrieve a user's data from Google, you acknowledge and agree that you shall retrieve data only with the user's explicit consent and only when, and for the limited purposes for which, the user has given you permission to do so. If you use the Android Recognition Service API, documented at the following URL: https://developer.android.com/reference/android/speech/RecognitionService, as updated from time to time, you acknowledge that the use of the API is subject to the Data Processing Addendum for Products where Google is a Data Processor, which is located at the following URL: https://privacy.google.com/businesses/gdprprocessorterms/, as updated from time to time. By clicking to accept, you hereby agree to the terms of the Data Processing Addendum for Products where Google is a Data Processor.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1091915Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1092130Z 9. Terminating this License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.1092466Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1093148Z 9.1 The License Agreement will continue to apply until terminated by either you or Google as set out below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1094107Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1095002Z 9.2 If you want to terminate the License Agreement, you may do so by ceasing your use of the SDK and any relevant developer credentials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1096107Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1099540Z 9.3 Google may at any time, terminate the License Agreement with you if: (A) you have breached any provision of the License Agreement; or (B) Google is required to do so by law; or (C) the partner with whom Google offered certain parts of SDK (such as APIs) to you has terminated its relationship with Google or ceased to offer certain parts of the SDK to you; or (D) Google decides to no longer provide the SDK or certain parts of the SDK to users in the country in which you are resident or from which you use the service, or the provision of the SDK or certain SDK services to you by Google is, in Google's sole discretion, no longer commercially viable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1103646Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1106135Z 9.4 When the License Agreement comes to an end, all of the legal rights, obligations and liabilities that you and Google have benefited from, been subject to (or which have accrued over time whilst the License Agreement has been in force) or which are expressed to continue indefinitely, shall be unaffected by this cessation, and the provisions of paragraph 14.7 shall continue to apply to such rights, obligations and liabilities indefinitely.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1108795Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1108961Z 10. DISCLAIMER OF WARRANTIES
+build	UNKNOWN STEP	2026-11-10T11:56:36.1109234Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1110118Z 10.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SDK IS AT YOUR SOLE RISK AND THAT THE SDK IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND FROM GOOGLE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1111278Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1113759Z 10.2 YOUR USE OF THE SDK AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SDK IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1116424Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1117985Z 10.3 GOOGLE FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. 11. LIMITATION OF LIABILITY
+build	UNKNOWN STEP	2026-11-10T11:56:36.1119763Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1122414Z 11.1 YOU EXPRESSLY UNDERSTAND AND AGREE THAT GOOGLE, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES THAT MAY BE INCURRED BY YOU, INCLUDING ANY LOSS OF DATA, WHETHER OR NOT GOOGLE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1124984Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1125157Z 12. Indemnification
+build	UNKNOWN STEP	2026-11-10T11:56:36.1125382Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1127984Z 12.1 To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless Google, its affiliates and their respective directors, officers, employees and agents from and against any and all claims, actions, suits or proceedings, as well as any and all losses, liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out of or accruing from (a) your use of the SDK, (b) any application you develop on the SDK that infringes any copyright, trademark, trade secret, trade dress, patent or other intellectual property right of any person or defames any person or violates their rights of publicity or privacy, and (c) any non-compliance by you with the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1130400Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1130506Z 13. Changes to the License Agreement
+build	UNKNOWN STEP	2026-11-10T11:56:36.1130697Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1131793Z 13.1 Google may make changes to the License Agreement as it distributes new versions of the SDK. When these changes are made, Google will make a new version of the License Agreement available on the website where the SDK is made available.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1133206Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1133360Z 14. General Legal Terms
+build	UNKNOWN STEP	2026-11-10T11:56:36.1133592Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1135274Z 14.1 The License Agreement constitutes the whole legal agreement between you and Google and governs your use of the SDK (excluding any services which Google may provide to you under a separate written agreement), and completely replaces any prior agreements between you and Google in relation to the SDK.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1136892Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1137888Z 14.2 You agree that if Google does not exercise or enforce any legal right or remedy which is contained in the License Agreement (or which Google has the benefit of under any applicable law), this will not be taken to be a formal waiver of Google's rights and that those rights or remedies will still be available to Google.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1138958Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1140055Z 14.3 If any court of law, having the jurisdiction to decide on this matter, rules that any provision of the License Agreement is invalid, then that provision will be removed from the License Agreement without affecting the rest of the License Agreement. The remaining provisions of the License Agreement will continue to be valid and enforceable.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1141226Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1142873Z 14.4 You acknowledge and agree that each member of the group of companies of which Google is the parent shall be third party beneficiaries to the License Agreement and that such other companies shall be entitled to directly enforce, and rely upon, any provision of the License Agreement that confers a benefit on (or rights in favor of) them. Other than this, no other person or company shall be third party beneficiaries to the License Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1144678Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1145660Z 14.5 EXPORT RESTRICTIONS. THE SDK IS SUBJECT TO UNITED STATES EXPORT LAWS AND REGULATIONS. YOU MUST COMPLY WITH ALL DOMESTIC AND INTERNATIONAL EXPORT LAWS AND REGULATIONS THAT APPLY TO THE SDK. THESE LAWS INCLUDE RESTRICTIONS ON DESTINATIONS, END USERS AND END USE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1146585Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1147674Z 14.6 The rights granted in the License Agreement may not be assigned or transferred by either you or Google without the prior written approval of the other party. Neither you nor Google shall be permitted to delegate their responsibilities or obligations under the License Agreement without the prior written approval of the other party.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1148851Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1150647Z 14.7 The License Agreement, and your relationship with Google under the License Agreement, shall be governed by the laws of the State of California without regard to its conflict of laws provisions. You and Google agree to submit to the exclusive jurisdiction of the courts located within the county of Santa Clara, California to resolve any legal matter arising from the License Agreement. Notwithstanding this, you agree that Google shall still be allowed to apply for injunctive remedies (or an equivalent type of urgent legal relief) in any jurisdiction.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1153808Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.1154284Z Accept? (y/N): 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1154698Z 7/7: License mips-android-sysimage-license:
+build	UNKNOWN STEP	2026-11-10T11:56:36.1155208Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.1158994Z MIPS Technologies, Inc. (“MIPS”) Internal Evaluation License Agreement for MIPS Android™ System Images for Android Software Development Kit (SDK): This Internal Evaluation License Agreement (this "Agreement") is entered into by and between MIPS and you (as an individual developer or a legal entity -- identified below as “Recipient”). MIPS shall make the Evaluation Software available to Recipient as described in accordance with the terms and conditions set forth below.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1162171Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1165697Z By clicking on the “Accept” button, downloading, installing, or otherwise using the Evaluation Materials (defined below), you agree to be bound by the terms of this Agreement effective as of the date you click “Accept” (the “Effective Date”), and if doing so on behalf of an entity, you represent that you are authorized to bind the entity to the terms and conditions of this Agreement. If you do not agree to be bound by the terms and conditions of this Agreement, do not download, install, or use the Evaluation Materials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1168978Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1169270Z 1. DEFINITIONS. These terms shall have the following meanings:
+build	UNKNOWN STEP	2026-11-10T11:56:36.1169751Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1170667Z 1.1 “MIPS” shall mean MIPS Technologies, Inc., a Delaware corporation having a principal place of business at: 955 East Arques Ave., Sunnyvale, CA 94085
+build	UNKNOWN STEP	2026-11-10T11:56:36.1171944Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1173030Z 1.2 “Evaluation Software” shall mean MIPS Android™ emulator system images for Android Software Development Kit (SDK), as made available to Recipient.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1174117Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1176336Z 1.3 “Evaluation Materials" means, collectively, the Evaluation Software (in source and/or object code form) and documentation (including, without limitation, any design documents, specifications, reference manuals, and other related materials) related to the Evaluation Software as made available to Recipient.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1178267Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1185518Z 1.4 “Open Source Software” means any software that requires (as a condition of use, modification and/or distribution of such software) that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form; or (b) be licensed by the user to third parties for the purpose of making and/or distributing derivative works; or (c) be redistributable at no charge. Open Source Software includes, without limitation, software licensed or distributed under any of the following licenses or distribution models, or licenses or distribution models substantially similar to any of the following: (a) GNU’s General Public License (GPL) or Lesser/Library GPL (LGPL), (b) the Artistic License (e.g., PERL), (c) the Mozilla Public License, (d) the Netscape Public License, (e) the Sun Community Source License (SCSL), (f) the Sun Industry Source License (SISL), (g) the Apache Software license and (h) the Common Public License (CPL).
+build	UNKNOWN STEP	2026-11-10T11:56:36.1191584Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1193633Z 1.5 “Pre-Release Materials” means “alpha” or “beta” designated pre-release features, which may not be fully functional, which MIPS may substantially modify in producing any production version of the Evaluation Materials, and/or which is still under development by MIPS and/or MIPS’ suppliers.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1195487Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1198791Z 2. PURPOSE. MIPS desires to make the Evaluation Materials available to Recipient solely for Recipient's internal evaluation of the Evaluation Software to evaluate the desirability of cooperating with MIPS in developing products that are compatible with the Evaluation Software and/or to advise MIPS as to possible modifications to the Evaluation Software. Recipient may not disclose, distribute, modify (except to facilitate the above-mentioned internal evaluation), or make commercial use of the Evaluation Materials or any modifications of the Evaluation Materials.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1202448Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1204934Z THE EVALUATION MATERIALS ARE PROVIDED FOR EVALUATION PURPOSES ONLY AND MAY NOT BE MODIFIED (EXCEPT TO FACILITATE THE INTERNAL EVALUATION) OR DISTRIBUTED BY RECIPIENT OR INCORPORATED INTO RECIPIENT’S PRODUCTS OR SOFTWARE. PLEASE CONTACT A MIPS SALES REPRESENTATIVE TO LEARN ABOUT THE AVAILABILITY AND COST OF A COMMERCIAL VERSION OF THE EVALUATION SOFTWARE.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1207169Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1208766Z 3. TITLE. Title to the Evaluation Materials remains with MIPS or its suppliers. Recipient shall not mortgage, pledge or encumber the Evaluation Materials in any way. Recipient shall return all Evaluation Materials, keeping no copies, upon termination or expiration of this Agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1210522Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1217400Z 4. LICENSE. MIPS grants Recipient a royalty-free, personal, nontransferable, nonexclusive license under its copyrights to use the Evaluation Software only for the purposes described in paragraph 2 above and only for a period beginning on the Effective Date and extending to the first anniversary of the Effective Date (the “Evaluation Period”). Unless otherwise communicated in writing by MIPS to Recipient, to the extent the Evaluation Software is provided in more than one delivery or release (each, a “Release”) the license grant in this Section 4 and the Evaluation Period shall apply to each Release, in which case the Evaluation Period shall begin on the date that the Release is made generally available and continue to the first anniversary of such date. Recipient may not make modifications to the Evaluation Software. Recipient shall not disassemble, reverse-engineer, or decompile any software that is not provided to Recipient in source code form.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1223486Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1223495Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1225393Z EXCEPT AS PROVIDED HEREIN, NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, TO ANY OTHER MIPS INTELLECTUAL PROPERTY RIGHTS IS GRANTED TO THE RECIPIENT. OTHER THAN AS EXPLICITLY SET FORTH IN PARAGRAPH 2 ABOVE, NO RIGHT TO COPY, TO REPRODUCE, TO MODIFY, OR TO CREATE DERIVATIVE WORKS OF, THE EVALUATION MATERIALS IS GRANTED HEREIN.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1227465Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1228851Z 5. NO OBLIGATION. Recipient shall have no duty to purchase or license any product from MIPS. MIPS and its suppliers shall have no obligation to provide support for, or develop a non-evaluation version of, the Evaluation Software or to license any version of it.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1230441Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1237468Z 6. MODIFICATIONS. This Agreement does not obligate Recipient to provide MIPS with comments or suggestions regarding Evaluation Materials. However, should Recipient provide MIPS with comments or suggestions for the modification, correction, improvement or enhancement of (a) the Evaluation Materials or (b) MIPS products or processes which may embody the Evaluation Materials, then Recipient agrees to grant and hereby grants to MIPS a non-exclusive, irrevocable, worldwide, fully paid-up, royalty-free license, with the right to sublicense MIPS’ licensees and customers, under Recipient’s Intellectual property rights, to use and disclose such comments and suggestions in any manner MIPS chooses and to display, perform, copy, make, have made, use, sell, offer to sell, import, and otherwise dispose of MIPS’ and its sublicensee’s products embodying such comments and suggestions in any manner and via any media MIPS chooses, without reference to the source.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1243421Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1246457Z 7. WARRANTY DISCLAIMER. MIPS AND ITS SUPPLIERS MAKE NO WARRANTIES WITH RESPECT TO EVALUATION MATERIALS, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR ANY IMPLIED WARRANTY OF NONINFRINGEMENT WITH RESPECT TO THIRD PARTY INTELLECTUAL PROPERTY. RECIPIENT ACKNOWLEDGES AND AGREES THAT THE EVALUATION MATERIALS ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1249159Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1252714Z 8. LIMITATION OF LIABILITY. MIPS AND ITS SUPPLIERS SHALL NOT BE LIABLE FOR ANY PROPERTY DAMAGE, PERSONAL INJURY, LOSS OF PROFITS, INTERRUPTION OF BUSINESS OR FOR ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES, HOWEVER CAUSED OR ALLEGED, WHETHER FOR BREACH OF WARRANTY, CONTRACT, STRICT LIABILITY OR OTHERWISE, INCLUDING WITHOUT LIMITATION, UNDER TORT OR OTHER LEGAL THEORY. MIPS AND ITS SUPPLIERS DISCLAIM ANY AND ALL LIABILITY, INCLUDING LIABILITY FOR INFRINGEMENT OF ANY INTELLECTUAL PROPERTY RIGHTS OF ANY KIND RELATING TO THE EVALUATION MATERIALS.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1256147Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1257472Z 9. EXPIRATION. MIPS may terminate this Agreement immediately after a breach by Recipient or otherwise at MIPS’ reasonable discretion and upon five (5) business days’ notice to Recipient.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1258682Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1258840Z 10. GENERAL.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1259050Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1265450Z 10.1 Controlling Law. This Agreement shall be governed by California law excluding its choice of law rules. With the exception of MIPS’ rights to enforce its intellectual property rights and any confidentiality obligations under this Agreement or any licenses distributed with the Evaluation Materials, all disputes and any claims arising under or relating to this Agreement shall be subject to the exclusive jurisdiction and venue of the state and federal courts located in Santa Clara County, California. Each party hereby agrees to jurisdiction and venue in the courts set forth in the preceding sentence. The parties agree that the United Nations Convention on Contracts for the International Sale of Goods is specifically excluded from application to this Agreement. The parties consent to the personal jurisdiction of the above courts.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1270810Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1273913Z 10.2 Remedies. Recipient acknowledges and agrees that any breach of confidentiality obligations under this Agreement or any licenses distributed with the Evaluation Materials, as well as any disclosure, commercialization, or public use of the Evaluation Materials, would cause irreparable injury to MIPS, and therefore Recipient agrees to consent to, and hereby consents to, the grant of an injunction by any court of competent jurisdiction in the event of an actual or threatened breach.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1276974Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1280762Z 10.3 Assignment. Recipient may not delegate, assign or transfer this Agreement, the license granted or any of Recipient’s rights, obligations, or duties hereunder, expressly, by implication, by operation of law, by way of merger (regardless of whether Recipient is the surviving entity) or acquisition, or otherwise and any attempt to do so, without MIPS’ express prior written consent, shall be ineffective, null and void. MIPS may freely assign this Agreement, and its rights and obligations hereunder, in its sole discretion.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1283892Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1286458Z 10.4 Entire Agreement. This Agreement constitutes the entire agreement between Recipient and MIPS and supersedes in their entirety any and all oral or written agreements previously existing between Recipient and MIPS with respect to the subject matter hereof. This Agreement may only be amended or supplemented by a writing that refers explicitly to this Agreement and that is signed or otherwise accepted by duly authorized representatives of Recipient and MIPS.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1289296Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1292167Z 10.5 Severability. In the event that any provision of this Agreement is finally adjudicated to be unenforceable or invalid under any applicable law, such unenforceability or invalidity shall not render this Agreement unenforceable or invalid as a whole, and, in such event, such unenforceable or invalid provision shall be interpreted so as to best accomplish the objectives of such provision within the limits of applicable law or applicable court decisions.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1295018Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1303617Z 10.6 Export Regulations / Export Control. Recipient shall not export, either directly or indirectly, any product, service or technical data or system incorporating the Evaluation Materials without first obtaining any required license or other necessary approval from the U.S. Department of Commerce or any other governing agency or department of the United States Government. In the event any product is exported from the United States or re-exported from a foreign destination by Recipient, Recipient shall ensure that the distribution and export/re-export or import of the product is in compliance with all applicable laws, regulations, orders, or other restrictions of the U.S. Export Administration Regulations and the appropriate foreign government. Recipient agrees that neither it nor any of its subsidiaries will export/re-export any technical data, process, product, or service, directly or indirectly, to any country for which the United States government or any agency thereof or the foreign government from where it is shipping requires an export license, or other governmental approval, without first obtaining such license or approval. Recipient also agrees to implement measures to ensure that foreign national employees are authorized to receive any information controlled by U.S. export control laws. An export is "deemed" to take place when information is released to a foreign national wherever located.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1310276Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1316164Z 10.7 Special Terms for Pre-Release Materials. If so indicated in the description of the Evaluation Software, the Evaluation Software may contain Pre-Release Materials. Recipient hereby understands, acknowledges and agrees that: (i) Pre-Release Materials may not be fully tested and may contain bugs or errors; (ii) Pre-Release materials are not suitable for commercial release in their current state; (iii) regulatory approvals for Pre-Release Materials (such as UL or FCC) have not been obtained, and Pre-Release Materials may therefore not be certified for use in certain countries or environments or may not be suitable for certain applications and (iv) MIPS can provide no assurance that it will ever produce or make generally available a production version of the Pre-Release Materials . MIPS is not under any obligation to develop and/or release or offer for sale or license a final product based upon the Pre-Release Materials and may unilaterally elect to abandon the Pre-Release Materials or any such development platform at any time and without any obligation or liability whatsoever to Recipient or any other person.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1323118Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1324362Z ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED “AS IS” AND “AS AVAILABLE”, POSSIBLY WITH FAULTS, AND WITHOUT REPRESENTATION OR WARRANTY OF ANY KIND.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1325485Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1329429Z 10.8 Open Source Software. In the event Open Source software is included with Evaluation Software, such Open Source software is licensed pursuant to the applicable Open Source software license agreement identified in the Open Source software comments in the applicable source code file(s) and/or file header as indicated in the Evaluation Software. Additional detail may be available (where applicable) in the accompanying on-line documentation. With respect to the Open Source software, nothing in this Agreement limits any rights under, or grants rights that supersede, the terms of any applicable Open Source software license agreement.
+build	UNKNOWN STEP	2026-11-10T11:56:36.1333584Z ---------------------------------------
+build	UNKNOWN STEP	2026-11-10T11:56:36.1334137Z Accept? (y/N): All SDK package licenses accepted
+build	UNKNOWN STEP	2026-11-10T11:56:36.1334522Z 
+build	UNKNOWN STEP	2026-11-10T11:56:36.1334938Z [command]/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager tools
+build	UNKNOWN STEP	2026-11-10T11:56:36.9033198Z Loading package information...                                                  
+build	UNKNOWN STEP	2026-11-10T11:56:37.0215705Z Loading local repository...                                                     
+build	UNKNOWN STEP	2026-11-10T11:56:37.0216293Z [                                       ] 3% Loading local repository...        
+build	UNKNOWN STEP	2026-11-10T11:56:37.0302057Z [                                       ] 3% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.4494376Z [=                                      ] 3% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.5354420Z [=                                      ] 4% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.5772859Z [=                                      ] 5% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.6518244Z [==                                     ] 5% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.7244412Z [==                                     ] 6% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.8372624Z [==                                     ] 7% Fetch remote repository...         
+build	UNKNOWN STEP	2026-11-10T11:56:37.8395957Z [==                                     ] 7% Computing updates...               
+build	UNKNOWN STEP	2026-11-10T11:56:37.8517186Z [===                                    ] 8% Computing updates...               
+build	UNKNOWN STEP	2026-11-10T11:56:37.8518238Z [===                                    ] 10% Computing updates...              
+build	UNKNOWN STEP	2026-11-10T11:56:37.8519099Z                                                                                 
+build	UNKNOWN STEP	2026-11-10T11:56:37.8520385Z Warning: Failed to find package 'tools'
+build	UNKNOWN STEP	2026-11-10T11:56:37.9004498Z /home/runner/work/_actions/android-actions/setup-android/v3/dist/index.js:1823
+build	UNKNOWN STEP	2026-11-10T11:56:37.9005659Z                 error = new Error(`The process '${this.toolPath}' failed with exit code ${this.processExitCode}`);
+build	UNKNOWN STEP	2026-11-10T11:56:37.9006196Z                         ^
+build	UNKNOWN STEP	2026-11-10T11:56:37.9006349Z 
+build	UNKNOWN STEP	2026-11-10T11:56:37.9006689Z Error: The process '/usr/local/lib/android/sdk/cmdline-tools/16.0/bin/sdkmanager' failed with exit code 1
+build	UNKNOWN STEP	2026-11-10T11:56:37.9007989Z     at ExecState._setResult (/home/runner/work/_actions/android-actions/setup-android/v3/dist/index.js:1823:25)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9009021Z     at ExecState.CheckComplete (/home/runner/work/_actions/android-actions/setup-android/v3/dist/index.js:1806:18)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9009884Z     at ChildProcess.<anonymous> (/home/runner/work/_actions/android-actions/setup-android/v3/dist/index.js:1700:27)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9010467Z     at ChildProcess.emit (node:events:514:28)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9010811Z     at maybeClose (node:internal/child_process:1172:16)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9011245Z     at ChildProcess._handle.onexit (node:internal/child_process:335:5)
+build	UNKNOWN STEP	2026-11-10T11:56:37.9011895Z 
+build	UNKNOWN STEP	2026-11-10T11:56:37.9011991Z Node.js v24.22.1
+build	UNKNOWN STEP	2026-11-10T11:56:37.9115389Z [===                                    ] 10% Computing updates...              
+build	UNKNOWN STEP	2026-11-10T11:56:37.9272804Z Post job cleanup.
+build	UNKNOWN STEP	2026-11-10T11:56:38.0687624Z (node:2540) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+build	UNKNOWN STEP	2026-11-10T11:56:38.0688513Z (Use `node --trace-deprecation ...` to show where the warning was created)
+build	UNKNOWN STEP	2026-11-10T11:56:38.0950966Z Post job cleanup.
+build	UNKNOWN STEP	2026-11-10T11:56:38.2062430Z [command]/usr/bin/git version
+build	UNKNOWN STEP	2026-11-10T11:56:38.2132246Z git version 2.56.0
+build	UNKNOWN STEP	2026-11-10T11:56:38.2176426Z Temporarily overriding HOME='/home/runner/work/_temp/d20c236f-957c-41ce-aa0b-684db73c29b4' before making global git config changes
+build	UNKNOWN STEP	2026-11-10T11:56:38.2178025Z Adding repository directory to the temporary git global config as a safe directory
+build	UNKNOWN STEP	2026-11-10T11:56:38.2182649Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/Apk/Apk
+build	UNKNOWN STEP	2026-11-10T11:56:38.2238904Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	UNKNOWN STEP	2026-11-10T11:56:38.2279983Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	UNKNOWN STEP	2026-11-10T11:56:38.2587734Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	UNKNOWN STEP	2026-11-10T11:56:38.2632290Z http.https://github.com/.extraheader
+build	UNKNOWN STEP	2026-11-10T11:56:38.2652225Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	UNKNOWN STEP	2026-11-10T11:56:38.2691000Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	UNKNOWN STEP	2026-11-10T11:56:38.2962753Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	UNKNOWN STEP	2026-11-10T11:56:38.3005719Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	UNKNOWN STEP	2026-11-10T11:56:38.3438852Z Cleaning up orphan processes
+build	UNKNOWN STEP	2026-11-10T11:56:38.3828406Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-java@v4, android-actions/setup-android@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
