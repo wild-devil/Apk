@@ -356,7 +356,7 @@ dependencies {
     implementation files('libs/jackson-core-2.2.0.jar')
     implementation files('libs/achartengine-1.0.0.jar')
     implementation files('libs/snakeyaml-1.10-android.jar')
-    implementation files('libs/ca.psiphon.aar')
+    implementation 'ca.psiphon:psiphontunnel:2.0.41'
     // The .so are rebuilt for 16 KB page alignment by scripts/build-jndcrash-aar.sh;
     // otherwise fall back to the prebuilt AAR. Kept in .native/, not buildDir, so
     // that `gradlew clean` cannot delete it mid-build.
