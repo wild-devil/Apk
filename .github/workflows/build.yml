@@ -22,10 +22,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libtinfo5
 
+      - name: Check Psiphon secrets
+        env:
+          PSIPHON_PROPAGATION_CHANNEL_ID: ${{ secrets.PSIPHON_PROPAGATION_CHANNEL_ID }}
+          PSIPHON_SPONSOR_ID: ${{ secrets.PSIPHON_SPONSOR_ID }}
+        run: |
+          test -n "$PSIPHON_PROPAGATION_CHANNEL_ID" || { echo "ERROR: Propagation ID missing"; exit 1; }
+          test -n "$PSIPHON_SPONSOR_ID" || { echo "ERROR: Sponsor ID missing"; exit 1; }
+          echo "Psiphon IDs are present."
+
       - name: Build Debug APK
         env:
           PSIPHON_PROPAGATION_CHANNEL_ID: ${{ secrets.PSIPHON_PROPAGATION_CHANNEL_ID }}
           PSIPHON_SPONSOR_ID: ${{ secrets.PSIPHON_SPONSOR_ID }}
+          PSIPHON_CLIENT_VERSION: "2026.11.17"
           PSIPHON_REMOTE_SERVER_LIST_SIGNATURE_PUBLIC_KEY: ${{ secrets.PSIPHON_REMOTE_SERVER_LIST_SIGNATURE_PUBLIC_KEY }}
           PSIPHON_REMOTE_SERVER_LIST_URLS_JSON: ${{ secrets.PSIPHON_REMOTE_SERVER_LIST_URLS_JSON }}
         run: |
@@ -37,6 +47,10 @@ jobs:
           FILE="app/src/main/java/com/psiphon3/psiphonlibrary/EmbeddedValues.java"
 
           test -f "$FILE" || exit 1
+
+          echo "Checking generated EmbeddedValues.java"
+
+          grep -E 'PROPAGATION_CHANNEL_ID|SPONSOR_ID' "$FILE" | sed -E 's/(".*")/"[REDACTED]"/'
 
           grep -Eq 'PROPAGATION_CHANNEL_ID = ""' "$FILE" && {
             echo "ERROR: Propagation ID EMPTY"
