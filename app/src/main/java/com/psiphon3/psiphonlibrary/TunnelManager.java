@@ -1846,7 +1846,7 @@ public class TunnelManager implements PsiphonTunnel.HostService, VpnManager.VpnS
 
             json.put("FeedbackUploadURLs", new JSONArray(EmbeddedValues.FEEDBACK_DIAGNOSTIC_INFO_UPLOAD_URLS_JSON));
             json.put("FeedbackEncryptionPublicKey", EmbeddedValues.FEEDBACK_ENCRYPTION_PUBLIC_KEY);
-            json.put("EnableFeedbackUpload", true);
+            json.put("EnableFeedbackUpload", false);
 
             json.put("AdditionalParameters", EmbeddedValues.ADDITIONAL_PARAMETERS);
 
